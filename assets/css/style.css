@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    width: 375px;
+    background-color: #f9f9f9;
+}
+.cabeca{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: 2px solid #69B99D;
+}
+.cabeca .box-left img{
+    width: 10rem;
+}
+.corpo{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.corpo .pag1,
+.corpo .pag2{
+    align-items: center;
+}
+.corpo .pag1 .caixacima,
+.corpo .pag2 .caixacima{
+    width: 30rem;
+}
+.corpo .pag1 .caixacima img,
+.corpo .pag2 .caixacima img{
+    width: 375px;
+    height: 19rem;
+}
+.corpo .pag1 .caixabaixa{
+    text-align: center;
+}
+.pag1 .caixabaixa p{
+    color: #767676;
+}
+.pag1 .caixabaixa .botao button,
+.pag5 .botao button{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #69B99D;
+    color: #fff;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+.corpo .pag2 .caixacima {
+    margin-top: 4rem;
+}
+.pag2 .caixabaixa h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+.pag2 .caixabaixa p{
+    color: #767676;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+.pag3{
+    margin-top: 6rem;
+    margin-left: 1rem;
+    justify-content: center;
+}
+.pag3 h2{
+    margin-bottom: 2rem;
+}
+.pag3 p span{
+    color: #69B99D;
+}
+.pag3 .row .col,
+.pag4 .row .col {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+    justify-content: center;
+    border: 0.01rem solid #fff;
+    padding: 4rem 3rem;
+    text-align: center;
+}
+.pag3 .row .col p{
+    color: #767676;
+}
+.pag4{
+    margin-top: 6rem;
+    justify-content: center;
+    background-color: #fff;
+}
+.pag4 .row .col p span{
+    color: #69B99D;
+}
+.pag4 .depoimentos h2{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.pag4 .row .col .nome p{
+    margin-top: 1rem;
+    color: #767676;
+}
+.pag5{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.pag5 p{
+    color: #767676;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.pag5 .botao button img{
+    width: 2rem;
+}
+.pag6{
+    background-color: #69B99D;
+}
+.pag6 p{
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+.pag6 .logo img{
+    width: 10rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.pag6 .redes img{
+    width: 1rem;
+    margin-left: 2rem;
+}
+.menu{
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+.menu img{
+    width: 1rem;
+    margin-left: 20rem;
+}
+.menu h2{
+    margin-top: 4rem;
+    text-align: center;
+}
